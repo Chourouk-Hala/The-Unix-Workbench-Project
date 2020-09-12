@@ -1,7 +1,8 @@
 echo "counting..."
-
+function count {
 num=$(ls | wc -w)
-
+}
+count
 echo "How many files do you think  are in the current directory"
 echo "Please take a guess"
 
